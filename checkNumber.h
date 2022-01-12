@@ -14,6 +14,8 @@
 */
 
 bool checkNumber (int sudoku[9][9], int row, int column, int number) {
+    if (row < 0 || row > 9 || column < 0 || column > 9 || number < 0 || number > 9)
+        return false;
 
     // Row Check
     for (int i = 0; i < 9; i++) {
