@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
+/Users/mariaivanova/CLionProjects/sudoku/chooseMatrix.h
+
 /Users/mariaivanova/CLionProjects/sudoku/main.cpp
 iostream
 -
+chooseMatrix.h
+/Users/mariaivanova/CLionProjects/sudoku/chooseMatrix.h
+printMatrix.h
+/Users/mariaivanova/CLionProjects/sudoku/printMatrix.h
+
+/Users/mariaivanova/CLionProjects/sudoku/printMatrix.h
 

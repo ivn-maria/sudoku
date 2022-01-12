@@ -80,7 +80,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/mariaivanova/CLionProjects/sudoku/checkNumber.h">
+			<Option target="sudoku"/>
+		</Unit>
+		<Unit filename="/Users/mariaivanova/CLionProjects/sudoku/chooseMatrix.h">
+			<Option target="sudoku"/>
+		</Unit>
+		<Unit filename="/Users/mariaivanova/CLionProjects/sudoku/cmake-build-debug/isFinished.h">
+			<Option target="sudoku"/>
+		</Unit>
 		<Unit filename="/Users/mariaivanova/CLionProjects/sudoku/main.cpp">
+			<Option target="sudoku"/>
+		</Unit>
+		<Unit filename="/Users/mariaivanova/CLionProjects/sudoku/printMatrix.h">
 			<Option target="sudoku"/>
 		</Unit>
 		<Unit filename="/Users/mariaivanova/CLionProjects/sudoku/CMakeLists.txt">
