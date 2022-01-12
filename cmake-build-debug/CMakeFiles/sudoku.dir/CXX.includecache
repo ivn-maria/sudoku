@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
+/Users/mariaivanova/CLionProjects/sudoku/checkNumber.h
+
 /Users/mariaivanova/CLionProjects/sudoku/chooseMatrix.h
+
+/Users/mariaivanova/CLionProjects/sudoku/isFinished.h
 
 /Users/mariaivanova/CLionProjects/sudoku/main.cpp
 iostream
@@ -15,6 +19,10 @@ chooseMatrix.h
 /Users/mariaivanova/CLionProjects/sudoku/chooseMatrix.h
 printMatrix.h
 /Users/mariaivanova/CLionProjects/sudoku/printMatrix.h
+checkNumber.h
+/Users/mariaivanova/CLionProjects/sudoku/checkNumber.h
+isFinished.h
+/Users/mariaivanova/CLionProjects/sudoku/isFinished.h
 
 /Users/mariaivanova/CLionProjects/sudoku/printMatrix.h
 

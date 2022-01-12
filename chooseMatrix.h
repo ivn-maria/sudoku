@@ -1,4 +1,21 @@
+/**
+*
+* Solution to course project # 6
+* Introduction to programming course
+* Faculty of Mathematics and Informatics of Sofia University
+* Winter semester 2021/2022
+*
+* @author Maria Ivanova
+* @idnumber 9MI0600045
+* @compiler GCC
+*
+* <file with helper function, to pick easy/ medium/ hard matrix, depending on the user choice>
+*
+*/
+
 void choseMatrix (int level, int sudoku[9][9]) {
+
+    // with negative numbers, so we can check if there is changing of the initial numbers
     int easy[9][9] = {
             {0, 0, 0, -2, -6, 0, -7, 0, -1},
             {-6, -8, 0, 0, -7, 0, 0, -9, 0},

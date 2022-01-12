@@ -1,3 +1,18 @@
+/**
+*
+* Solution to course project # 6
+* Introduction to programming course
+* Faculty of Mathematics and Informatics of Sofia University
+* Winter semester 2021/2022
+*
+* @author Maria Ivanova
+* @idnumber 9MI0600045
+* @compiler GCC
+*
+* <file with the main function>
+*
+*/
+
 #include <iostream>
 #include "chooseMatrix.h"
 #include "printMatrix.h"
@@ -17,19 +32,19 @@ int main() {
 
     while (true) {
         printMatrix(sudoku);
-        int row, column, number;
-        cin >> row >> column >> number;
-
         if (isFinished(sudoku))
             break;
 
-        // not changing the primitive numbers
+        int row, column, number;
+        cin >> row >> column >> number;
+
+        // not changing the initial numbers
         if (sudoku[row][column] < 0) {
             cout << "This position can't be changed. Try again:" << endl;
             continue;
         }
 
-        //erase with 0
+        // erase with 0
         if (number == 0) {
             sudoku[row][column] = 0;
             continue;

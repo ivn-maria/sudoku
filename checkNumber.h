@@ -1,3 +1,18 @@
+/**
+*
+* Solution to course project # 6
+* Introduction to programming course
+* Faculty of Mathematics and Informatics of Sofia University
+* Winter semester 2021/2022
+*
+* @author Maria Ivanova
+* @idnumber 9MI0600045
+* @compiler GCC
+*
+* <file with helper function, to check if the number can be placed in the position>
+*
+*/
+
 bool checkNumber (int sudoku[9][9], int row, int column, int number) {
 
     // Row Check
@@ -14,7 +29,7 @@ bool checkNumber (int sudoku[9][9], int row, int column, int number) {
         }
     }
 
-    // Small Square check
+    // Small Square Check
     int startRow = row - row % 3;
     int startColumn = column - column % 3;
 

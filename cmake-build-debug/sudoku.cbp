@@ -86,7 +86,7 @@
 		<Unit filename="/Users/mariaivanova/CLionProjects/sudoku/chooseMatrix.h">
 			<Option target="sudoku"/>
 		</Unit>
-		<Unit filename="/Users/mariaivanova/CLionProjects/sudoku/cmake-build-debug/isFinished.h">
+		<Unit filename="/Users/mariaivanova/CLionProjects/sudoku/isFinished.h">
 			<Option target="sudoku"/>
 		</Unit>
 		<Unit filename="/Users/mariaivanova/CLionProjects/sudoku/main.cpp">
